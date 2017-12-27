@@ -1,4 +1,2 @@
 # Burger Menu
-Mobile Burger Menu with Animations
-
-Made for website to work on desktop and mobile
+An animated burger menu ready for use on desktop or mobile sites.
