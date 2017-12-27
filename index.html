@@ -15,13 +15,13 @@
 	</div>
 
 	<nav>
-		<ul class="nav-list" style="display:none;">
-			<div class="menu-list">
-				<li><a href="/">Home</a></li>
-				<li><a href="/">Projects</a></li>
-				<li><a href="/">About</a></li>
-			</div>
-		</ul>
+		<div class="nav-list" style="display:none;">
+			<ul class="menu-list">
+				<li><a href="{{ url('/') }}">Home</a></li>
+				<li><a href="{{ url('projects') }}">Projects</a></li>
+				<li><a href="{{ url('about') }}">About</a></li>
+			</ul>
+		</div>
 	</nav>
 
 </header>
